@@ -1,0 +1,66 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background: #0275d8;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 1rem;
+}
+
+.nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #0275d8;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.intro {
+    margin-bottom: 2rem;
+}
+
+.featured .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.featured .card h3 a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem 0;
+    background: #0275d8;
+    color: white;
+}
