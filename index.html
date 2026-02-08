@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuel Ebiye Fantasies Medical Blog</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuel Ebiye Fantasies Medical Blog</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="header">
-    <h1>Nuel Ebiye Fantasies Medical Blog</h1>
-    <p>Explaining Medical Science with Clarity and Depth</p>
+<!-- Hero Section -->
+<header class="hero">
+    <div class="overlay">
+        <img src="images/hero-logo.png" alt="N.E.F Logo" class="hero-logo">
+        <p>Exploring the Wonders of Human Physiology and Medical Science</p>
+        <a href="#articles" class="btn">Explore Articles</a>
+    </div>
 </header>
 
-<nav class="nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="articles.html">Articles</a>
-    <a href="contact.html">Contact</a>
-</nav>
 
-<main class="content">
-    <section class="intro">
-        <h2>Welcome</h2>
-        <p>Explore medical science, mechanisms of disease, and the beauty of human physiology.</p>
-    </section>
-
-    <section class="featured">
-        <h2>Featured Article</h2>
+<!-- Featured Articles -->
+<section id="articles" class="featured-articles">
+    <h2>Featured Articles</h2>
+    <div class="card-container">
         <div class="card">
+            <img src="images/brain.jpg" alt="Brain Hypoxia">
             <h3><a href="article1.html">Why the Brain Suffers in Hypoxia</a></h3>
-            <p>A deep dive into oxygen deprivation and its effects on neural function.</p>
+            <p>Understanding oxygen deprivation and its effects on neural function.</p>
+            <a href="article1.html" class="read-more">Read More</a>
         </div>
-    </section>
-</main>
+        <div class="card">
+            <img src="images/heart.jpg" alt="Cardiovascular Health">
+            <h3><a href="article2.html">The Heart in Motion</a></h3>
+            <p>How blood flow and heart function adapt under stress and disease.</p>
+            <a href="article2.html" class="read-more">Read More</a>
+        </div>
+        <div class="card">
+            <img src="images/lungs.jpg" alt="Respiratory System">
+            <h3><a href="article3.html">Breathing Under Pressure</a></h3>
+            <p>The mechanics of respiration and what happens when lungs are stressed.</p>
+            <a href="article3.html" class="read-more">Read More</a>
+        </div>
+    </div>
+</section>
 
-<footer class="footer">
-    <p>&copy; 2026 Nuel Ebiye Fantasies Medical Blog — All Rights Reserved</p>
+<!-- Categories -->
+<section class="categories">
+    <h2>Explore by Topic</h2>
+    <div class="category-container">
+        <a href="#">Physiology</a>
+        <a href="#">Neuroscience</a>
+        <a href="#">Pathology</a>
+        <a href="#">Clinical Medicine</a>
+        <a href="#">Immunology</a>
+        <a href="#">Pharmacology</a>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about">
+    <h2>About This Blog</h2>
+    <p>Hello, I’m Nuel, a medical student passionate about explaining the mechanisms of disease and the beauty of human physiology. This blog is here to make medical science engaging, clear, and visually exciting for everyone.</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Nuel Ebiye Fantasies Medical Blog</p>
 </footer>
 
 </body>
